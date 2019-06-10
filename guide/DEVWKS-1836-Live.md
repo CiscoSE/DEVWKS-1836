@@ -205,7 +205,6 @@ presentation and copy and paste the commands or code snippets as demonstrated by
             ```
             import cli
             result=cli.execute("show clock; show ip interface brief")
-            print(result)
             ```
         
         3. Get and print to screen the result from multiple `execute()` function calls in a Python for loop with 
