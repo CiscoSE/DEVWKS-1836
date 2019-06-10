@@ -252,6 +252,14 @@ presentation and copy and paste the commands or code snippets as demonstrated by
             for c in commands:
                 cli.executep(c)
             ```
+        
+        5.  Get and print to screen the result from an `executep()` function call with one malformed IOS XE EXEc mode 
+        CLI command (prints to screen error message):
+            
+            ```
+            import cli
+            cli.executep("show clck")
+            ```
     
     5. `configure()` Examples:
         
