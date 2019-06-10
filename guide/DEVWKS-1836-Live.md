@@ -224,7 +224,6 @@ presentation and copy and paste the commands or code snippets as demonstrated by
             ```
             import cli
             result=cli.execute("show clck")
-            print(result)
             ```
     
     4. `executep()` Examples:
