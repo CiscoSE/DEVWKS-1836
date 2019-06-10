@@ -28,8 +28,7 @@ Smart people responsible for the creation and maintenance of this project:
 The source material for this workshop came from the:
 
 * [Programmability Configuration Guide, Cisco IOS XE Fuji 16.8.x](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/prog/configuration/168/b_168_programmability_cg.html)
-* [Cisco IOS XE Programmability eBook](Cisco IOS XE Programmability e-book
-https://www.cisco.com/c/dam/en/us/products/.../nb-06-ios-xe-prog-ebook-cte-en.pdf)
+* [Cisco IOS XE Programmability eBook](https://www.cisco.com/c/dam/en/us/products/.../nb-06-ios-xe-prog-ebook-cte-en.pdf)
 
 ## License
 

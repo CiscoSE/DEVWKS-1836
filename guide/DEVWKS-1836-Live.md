@@ -55,7 +55,7 @@ presentation and copy and paste the commands or code snippets as demonstrated by
 1. Copy and paste the following IOS XE EXEC mode CLI command:
     
     ```
-    guestshell run wget <foo>
+    guestshell run wget https://raw.githubusercontent.com/CiscoSE/DEVWKS-1836/master/code/ex01.py
     ```
 
 2. Copy and paste the following IOS XE EXEC mode CLI command:
@@ -69,7 +69,7 @@ presentation and copy and paste the commands or code snippets as demonstrated by
 1. Copy and paste the following IOS XE EXEC mode CLI command:
     
     ```
-    guestshell run wget <foo>
+    guestshell run wget https://raw.githubusercontent.com/CiscoSE/DEVWKS-1836/master/code/ex02.py
     ```
 
 2. Copy and paste the following IOS XE configuration mode CLI commands:
