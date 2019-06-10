@@ -214,7 +214,8 @@ presentation and copy and paste the commands or code snippets as demonstrated by
             import cli
             commands = ["show clock", "show ip interface brief"]
             for c in commands:
-                cli.execute(c)
+                result=cli.execute(c)
+                print(result)
             ```
         
         5.  Get and print to screen the result from an `execute()` function call with one malformed IOS XE EXEc mode 
