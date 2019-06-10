@@ -77,7 +77,7 @@ presentation and copy and paste the commands or code snippets as demonstrated by
     ```
     configure terminal
     event manager applet CountdownPython
-      event timer countdown time 15
+      event timer countdown time 5
       action 1.0 syslog msg "DEVWKS-1836 Python example"
       action 1.1 cli command "enable"
       action 1.2 cli command "guestshell run python ex02.py"
@@ -132,12 +132,7 @@ presentation and copy and paste the commands or code snippets as demonstrated by
             
             ```
             import cli
-            result=cli.cli("configure terminal;
-                           interface Loopback100;
-                           description Configured by Python cli function;
-                           ip address 10.10.10.100 255.255.255.255;
-                           no shutdown;
-                           end")
+            result=cli.cli("configure terminal; interface Loopback100; description Configured by Python cli function; ip address 10.10.10.100 255.255.255.255; no shutdown; end")
             print(result)
             ```
         
@@ -183,13 +178,7 @@ presentation and copy and paste the commands or code snippets as demonstrated by
             
             ```
             import cli
-            cli.clip("configure terminal;
-                     interface Loopback101;
-                     description Configured by Python clip function;
-                     ip address 10.10.10.101 
-                     255.255.255.255;
-                     no shutdown;
-                     end")
+            cli.clip("configure terminal; interface Loopback101; description Configured by Python clip function; ip address 10.10.10.101  255.255.255.255; no shutdown; end")
             ```
         
         5.  Get and print to screen the result from a `clip()` function call with one malformed IOS XE EXEc mode CLI 
