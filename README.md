@@ -5,7 +5,7 @@ This is the repository for Cisco Live US 2019 DEVWKS-1836 - Hands-On with Cisco 
 * [Abstract](ABSTRACT.md)
 * [Agenda](AGENDA.md)
 * [Speaker's Bio](BIO.md)
-* [Live Workshop Guide](guide/DEVWKS-1836-Live.md) -or- [Self-Paced Workshop Guide](guide/DEVWKS-1836-00-Intro.md)
+* [Live Workshop Guide](guide/DEVWKS-1836-Live.md)
 
 ## Motivation
 
